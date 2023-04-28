@@ -1,4 +1,7 @@
 function computeTripledAreaOfARectangle(length, width) {
   // your code here
-  
+  if (length <= 0 || width <= 0) {
+    // Comprobación de entradas inválidasWrite a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3.Write a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3.Write a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3.Write a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3.
+    return "La longitud y el ancho deben ser números positivos.";
+    Write a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3.Write a function called computeTripledAreaOfARectangle. Given a length and width of a rectangle, computeTripledAreaOfARectangle returns the rectangle’s area, multiplied by 3. (length + width);
 }
