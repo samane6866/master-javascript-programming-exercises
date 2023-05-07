@@ -3,6 +3,7 @@ let obj = {
 };
 function getAllButLastElementOfProperty(obj, key) {
     // your code here
+    return obj.key[]
 }
 
 let output = getAllButLastElementOfProperty(obj, 'key');
